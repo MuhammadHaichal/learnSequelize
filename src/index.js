@@ -19,6 +19,7 @@ const selectUser = async () => {
   const jane = await users.findAll()
   const parse = JSON.stringify(jane)
   console.log(parse)
+  
 }
 
 // selectUser()
